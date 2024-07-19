@@ -5,7 +5,7 @@ import { Student } from '@phosphor-icons/react';
 
 export const Header = () => {
   return (
-   <header className='flex relative items-center justify-between w-full bg-yellow-700 h-16  '>
+   <header className='flex relative items-center justify-between w-full bg-gray-900 h-16  '>
 <div>
   <Student size={50} className='ml-7 text-white '/>
 </div>
