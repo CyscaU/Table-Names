@@ -6,9 +6,9 @@ export const Home = () => {
   return (
 <>
 <Header/>
-<main className='container mx-auto mt-48 p-6 bg-gray-200 text-white rounded-md mb-64'>
-<h2 className="text-3xl font-semibold mb-4  hover:bg-gray-500 rounded-full px-5 py-2" >Here and now</h2>
-<h1 className="text-6xl font-extrabold animate-slide-up text-white">BYTE4FUTURE</h1>
+<main className="flex w-full h-200 mb-9 mt-9 bg-gray-300"> 
+  <div className="flex-shrink-0 w-1/2 " ><img src="public\imagem.jpg.jpeg" alt="" className="w-full h-auto"/></div>
+ <div className="flex items-center justify-center w-1/2 bg-gray-300 p-4"> <h1  className="text-7xl font-bold text-black">Welcome </h1></div>
 </main>
 <Footer/>
 </>

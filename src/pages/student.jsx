@@ -37,6 +37,7 @@ export const Student = () => {
          <Footer/>
 
       </>
+      
    )
    function adicionarNovoItem() {
       setLista([...lista, novoItem]);
